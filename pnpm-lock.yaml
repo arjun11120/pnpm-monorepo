@@ -43,7 +43,7 @@ importers:
       react: ^18.2.0
       react-dom: ^18.2.0
       react-scripts: 5.0.1
-      shared-ui: workspace:^1.0.0
+      shared-ui: workspace:*
       web-vitals: ^2.1.4
     dependencies:
       '@testing-library/jest-dom': 5.16.5
@@ -57,9 +57,9 @@ importers:
 
   packages/shared-ui:
     specifiers:
-      react: ^18.2.0
-    dependencies:
-      react: 18.2.0
+      typescript: ^4.6.4
+    devDependencies:
+      typescript: 4.9.5
 
 packages:
 
@@ -9698,7 +9698,6 @@ packages:
     resolution: {integrity: sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==}
     engines: {node: '>=4.2.0'}
     hasBin: true
-    dev: false
 
   /unbox-primitive/1.0.2:
     resolution: {integrity: sha512-61pPlCD9h51VoreyJ0BReideM3MDKMKnh6+V9L08331ipq6Q8OFXZYiqP6n/tbHx4s5I9uRhcye6BrbkizkBDw==}
