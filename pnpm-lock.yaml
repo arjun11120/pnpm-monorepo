@@ -55,9 +55,30 @@ importers:
       shared-ui: link:../../packages/shared-ui
       web-vitals: 2.1.4
 
+  apps/test:
+    specifiers:
+      '@testing-library/jest-dom': ^5.16.5
+      '@testing-library/react': ^13.4.0
+      '@testing-library/user-event': ^13.5.0
+      react: ^18.2.0
+      react-dom: ^18.2.0
+      react-scripts: 5.0.1
+      web-vitals: ^2.1.4
+    dependencies:
+      '@testing-library/jest-dom': 5.16.5
+      '@testing-library/react': 13.4.0_biqbaboplfbrettd7655fr4n2y
+      '@testing-library/user-event': 13.5.0_yxlyej73nftwmh2fiao7paxmlm
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+      react-scripts: 5.0.1_ttstqpwd5x4n2qlxnjlizm3yxq
+      web-vitals: 2.1.4
+
   packages/shared-ui:
     specifiers:
+      react: ^18.2.0
       typescript: ^4.6.4
+    dependencies:
+      react: 18.2.0
     devDependencies:
       typescript: 4.9.5
 
@@ -2410,7 +2431,7 @@ packages:
     resolution: {integrity: sha512-9K4zoImiZc3HlIp6AVUDE4CWYx22a+lhSZMYNpbjW04+YF0KWj4pJXnEMjdnFTiQibFFmElcsasJXDbdI/EPhA==}
     dependencies:
       '@types/eslint': 8.21.1
-      '@types/estree': 0.0.51
+      '@types/estree': 1.0.0
     dev: false
 
   /@types/eslint/8.21.1:

@@ -4,11 +4,14 @@
   "description": "Shared UI components",
   "main": "dist/index.js",
   "scripts": {
-    "build": "del -rf dist && tsc"
+    "build": "del -rf dist && tsc"  
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0"
+  },
   "devDependencies": {
     "typescript": "^4.6.4"
   }

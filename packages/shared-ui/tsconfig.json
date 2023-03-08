@@ -5,8 +5,13 @@
       "esModuleInterop": true,
       "allowSyntheticDefaultImports": true,
       "module": "commonjs",
-      "outDir": "./dist"
+      "outDir": "./dist",
+      "target": "es5",
+      "lib": ["es5", "es6", "dom"]
     },
     "include": ["."],
-    "exclude": ["dist", "node_modules", "**/*.spec.ts"]
+    "exclude": ["dist", "node_modules", "**/*.spec.ts"],
+    // "path" : {
+    //   "demos/sharedui" : "demos/packages/shared-ui"
+    // }
   }
