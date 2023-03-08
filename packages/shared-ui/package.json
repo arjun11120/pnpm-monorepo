@@ -4,7 +4,7 @@
   "description": "Shared UI components",
   "main": "dist/index.js",
   "scripts": {
-    "build": "del -rf dist && tsc"  
+    "build": "tsup index.js"  
   },
   "keywords": [],
   "author": "",
